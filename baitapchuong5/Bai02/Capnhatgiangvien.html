@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Cập nhật giảng viên</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px 14px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        .highlight {
+            font-weight: bold;
+            color: rgb(221, 19, 19);
+        }
+    </style>
+</head>
+<body>
+    <h2>Danh sách giảng viên sau khi cập nhật</h2>
+    <div id="content"></div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "hosogiangvien.xml", true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var xmlDoc = xhr.responseXML;
+                var gvs = xmlDoc.getElementsByTagName("giangvien");
+                for (var i = 0; i < gvs.length; i++) {
+                    var hoten = gvs[i].getElementsByTagName("hoten")[0].textContent.trim();
+                    if (hoten.toLowerCase() === "phạm thanh loan") {
+                        gvs[i].getElementsByTagName("donvi")[0].textContent = "Cơ bản";
+                    }
+                }
+                var table = "<table>";
+                table += "<tr><th>STT</th><th>Họ tên giảng viên</th><th>Ngành</th><th>Đơn vị</th></tr>";
+                for (var i = 0; i < gvs.length; i++) {
+                    var hoten = gvs[i].getElementsByTagName("hoten")[0].textContent;
+                    var nganh = gvs[i].getElementsByTagName("nganh")[0].textContent;
+                    var donvi = gvs[i].getElementsByTagName("donvi")[0].textContent;
+                    var isUpdated = (hoten.trim().toLowerCase() === "phạm thanh loan");
+                    table += "<tr>" +
+                        "<td>" + (i + 1) + "</td>" +
+                        "<td>" + hoten + "</td>" +
+                        "<td>" + nganh + "</td>" +
+                        "<td class='" + (isUpdated ? "highlight" : "") + "'>" + donvi + "</td>" +
+                        "</tr>";
+                }
+                table += "</table>";
+                document.getElementById("content").innerHTML = table;
+            }
+        };
+        xhr.send();
+    </script>
+</body>
+</html>

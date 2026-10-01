@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Danh sách môn học</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px 14px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h2>Danh sách môn học</h2>
+    <div id="content"></div>
+    <script>
+        var xhr = new XMLHttpRequest();
+        xhr.open("GET", "dsmonhoc.xml", true);
+        xhr.onreadystatechange = function () {
+            if (xhr.readyState === 4 && xhr.status === 200) {
+                var xmlDoc = xhr.responseXML;
+                var subjects = xmlDoc.getElementsByTagName("subject");
+                var table = "<table>";
+                table += "<tr><th>STT</th><th>Tên môn học</th><th>Nhà xuất bản</th><th>Tác giả</th></tr>";
+                for (var i = 0; i < subjects.length; i++) {
+                    var title = subjects[i].getElementsByTagName("title")[0].textContent;
+                    var publisher = subjects[i].getElementsByTagName("publisher")[0].textContent;
+                    var author = subjects[i].getElementsByTagName("author")[0].textContent;
+
+                    table += "<tr>" +
+                        "<td>" + (i + 1) + "</td>" +
+                        "<td>" + title + "</td>" +
+                        "<td>" + publisher + "</td>" +
+                        "<td>" + author + "</td>" +
+                        "</tr>";
+                }
+                table += "</table>";
+                document.getElementById("content").innerHTML = table;
+            }
+        };
+        xhr.send();
+    </script>
+</body>
+</html>
