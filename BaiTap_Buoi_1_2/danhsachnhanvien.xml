@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<danhsach>
+    <nhanvien>
+        <manv> 001 </manv>
+        <hoTen> Nguyễn Ngọc Kiều Mi </hoTen>
+        <donvi> Hành chính </donvi>
+        <luong> 500000000 </luong>
+    </nhanvien>
+    
+    <nhanvien>
+        <manv> 002 </manv>
+        <hoTen> Ngô Quốc Huy </hoTen>
+        <donvi> Kỹ thuật </donvi>
+        <luong> 10 </luong>
+    </nhanvien>
+
+    <nhanvien>
+        <manv> 003 </manv>
+        <hoTen> Quách Minh Hẹ </hoTen>
+        <donvi> Tổ chức </donvi>
+        <luong> 5000000 </luong>
+    </nhanvien>
+</danhsach>
