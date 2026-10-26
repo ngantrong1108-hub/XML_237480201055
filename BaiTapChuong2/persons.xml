@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persons>
+    <person>
+        <name> Huynh Minh </name>
+        <date> 12-05-2000 </date>
+        <city> Bac Lieu </city>
+    </person>
+    <person>
+        <name> Lam Thanh </name>
+        <date> 11-06-2003 </date>
+        <city> Ca Mau </city>
+    </person> 
+</persons>       
+   

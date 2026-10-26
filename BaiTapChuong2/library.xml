@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+    <danhMuc maDanhMuc="DM01" tenDanhMuc="Thơ Việt Nam">
+        <sach>
+            <ISBN>VN001</ISBN>
+            <tuaDe>Nhật ký trong tù</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Hồ Chí Minh</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1960</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Văn học</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+
+            <viTriKeSach>
+                <khuVuc>A</khuVuc>
+                <ke>1</ke>
+                <tang>1</tang>
+            </viTriKeSach>
+        </sach>
+        <sach>
+            <ISBN>VN002</ISBN>
+            <tuaDe>Thơ Xuân Diệu</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Xuân Diệu</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1983</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Văn học</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>A</khuVuc>
+                <ke>2</ke>
+                <tang>1</tang>
+            </viTriKeSach>
+        </sach>
+        <sach>
+            <ISBN>VN003</ISBN>
+            <tuaDe>Thơ Hàn Mặc Tử</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Hàn Mặc Tử</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1990</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Văn nghệ</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>A</khuVuc>
+                <ke>3</ke>
+                <tang>1</tang>
+            </viTriKeSach>
+        </sach>
+    </danhMuc>
+    <danhMuc maDanhMuc="DM02" tenDanhMuc="Truyện ngắn Việt Nam">
+        <sach>
+            <ISBN>VN004</ISBN>
+            <tuaDe>Hai đứa trẻ</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Thạch Lam</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1938</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Văn học</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>B</khuVuc>
+                <ke>1</ke>
+                <tang>2</tang>
+            </viTriKeSach>
+        </sach>
+        <sach>
+            <ISBN>VN005</ISBN>
+            <tuaDe>Chiếc thuyền ngoài xa</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Nguyễn Minh Châu</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1987</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Văn học</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>B</khuVuc>
+                <ke>2</ke>
+                <tang>2</tang>
+            </viTriKeSach>
+        </sach>
+        <sach>
+            <ISBN>VN006</ISBN>
+            <tuaDe>Một bữa no</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Nam Cao</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1943</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Văn học</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>B</khuVuc>
+                <ke>3</ke>
+                <tang>2</tang>
+            </viTriKeSach>
+        </sach>
+    </danhMuc>
+    <danhMuc maDanhMuc="DM03" tenDanhMuc="Tiểu thuyết Việt Nam">
+        <sach>
+            <ISBN>VN007</ISBN>
+            <tuaDe>Số đỏ</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Vũ Trọng Phụng</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1936</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Văn học</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>C</khuVuc>
+                <ke>1</ke>
+                <tang>3</tang>
+            </viTriKeSach>
+        </sach>
+        <sach>
+            <ISBN>VN008</ISBN>
+            <tuaDe>Tuổi thơ dữ dội</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Phùng Quán</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1988</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Kim Đồng</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>C</khuVuc>
+                <ke>2</ke>
+                <tang>3</tang>
+            </viTriKeSach>
+        </sach>
+        <sach>
+            <ISBN>VN009</ISBN>
+            <tuaDe>Nỗi buồn chiến tranh</tuaDe>
+            <danhSachTacGia>
+                <tacGia>
+                    <hoTen>Bảo Ninh</hoTen>
+                </tacGia>
+            </danhSachTacGia>
+            <namXuatBan>1990</namXuatBan>
+            <nhaXuatBan>Nhà xuất bản Hội Nhà văn</nhaXuatBan>
+            <ngonNgu>Tiếng Việt</ngonNgu>
+            <viTriKeSach>
+                <khuVuc>C</khuVuc>
+                <ke>3</ke>
+                <tang>3</tang>
+            </viTriKeSach>
+        </sach>
+    </danhMuc>
+</library>
